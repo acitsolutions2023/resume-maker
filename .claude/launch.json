@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "resume-maker",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["spark", "serve", "--port", "8080"],
+      "port": 8080
+    }
+  ]
+}

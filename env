@@ -67,3 +67,12 @@
 #--------------------------------------------------------------------
 
 # logger.threshold = 4
+
+#--------------------------------------------------------------------
+# GOOGLE ADSENSE (ads stay hidden while client is empty)
+#--------------------------------------------------------------------
+
+# adsense.client = ca-pub-XXXXXXXXXXXXXXXX
+# adsense.slotHome = XXXXXXXXXX
+# adsense.slotBuilder = XXXXXXXXXX
+# adsense.slotRetrieve = XXXXXXXXXX
