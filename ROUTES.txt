@@ -1,0 +1,9 @@
+Add these routes to app/Config/Routes.php:
+
+$routes->get('/', 'Resume::index');
+$routes->get('resume/create/(:segment)', 'Resume::builder/$1');
+$routes->get('resume/retrieve', 'Resume::retrieve');
+$routes->post('resume/retrieve', 'Resume::find');
+$routes->post('resume/save', 'Resume::save');
+$routes->get('resume/preview/(:segment)', 'Resume::preview/$1');
+$routes->get('resume/download/(:segment)', 'Resume::download/$1');
